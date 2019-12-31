@@ -9,7 +9,13 @@ const routes = [
     path: '/starrySky',
     name: 'StarrySky',
     component: () => import(/* webpackChunkName: "starrySky" */ '../views/starrySky.vue'),
-    meta: { title: '星空' }
+    meta: { title: '动态星空' }
+  },
+  {
+    path: '/textBreak',
+    name: 'TextBreak',
+    component: () => import(/* webpackChunkName: "textBreak" */ '../views/textBreak.vue'),
+    meta: { title: '断裂文字' }
   }
 ]
 
